@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6a0dad, #ff4b2b, #ff8c00);
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 2em;
+            background-color: #222;
+            color: #ffcccb;
+            width: 100%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 1000px;
+            padding: 2em;
+        }
+
+        .info {
+            font-size: 1.2em;
+            color: #ffcccb;
+            margin-bottom: 1em;
+        }
+
+        .kontenerki {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .tak {
+            background-color: #333;
+            border-radius: 8px;
+            padding: 2em;
+            width: calc(33.333% - 20px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .tak:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 18px 30px rgba(0, 0, 0, 1);
+        }
+
+        .tak h2 {
+            font-size: 1.8em;
+            color: #ffcccb;
+            margin-bottom: 0.5em;
+        }
+
+        .tak p {
+            color: #bbb;
+        }
+
+        .button {
+            background-color: #ff4b2b;
+            color: #fff;
+            padding: 0.8em 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: auto;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ff8c00;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #222;
+            color: #ffcccb;
+            width: 100%;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Moje Portfolio</h1>
+        <p>Witaj! Jestem Tomasz Sobinek, jestem aspirującym programistą i oto moje przykładowe projekty.</p>
+    </header>
+
+    <div class="container">
+        <p class="info">Projekty znajdują się też w folderze z portfolio.</p>
+        <section class="kontenerki">
+            <div class="tak">
+                <h2>Realm of the mad site</h2>
+                <p>Strona która zawiera podstawowe informacje do gry ROTMG.</p>
+                <a href="strona o rot mg/main.html" class="button">Zobacz projekt</a>
+            </div>
+
+            <div class="tak">
+                <h2>Gra snejk</h2>
+                <p>Chyba nie musze tłumaczyć co to za gra ;)</p>
+                <a href="https://drive.google.com/file/d/1659sFLh89w6s0AXLdgCw6l57K-rKdV68/view?usp=drive_link" class="button">Zobacz projekt</a>
+            </div>
+
+            <div class="tak">
+                <h2>Notatnik</h2>
+                <p>Prosty notatnik zrobiony w c++</p>
+                <a href="https://drive.google.com/drive/folders/1ZNl-TCSiZWMr7-a7xmE2-Jc3Qxh89eLh?usp=drive_link" class="button">Zobacz projekt</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Tomasz Sobinek. Nie wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+</html>

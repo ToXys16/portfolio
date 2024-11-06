@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: fantasy;
+    font-family: 'Press Start 2P';font-size: 22px;
+    background-image: url(Realm_of_the_Mad_God_Exalt.jpeg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;    
+    padding-bottom: 300px;
+    min-height: 100vh;
+}
+.przyh{
+
+    text-decoration: none;
+}
+.przyciskh{
+    display: flex;
+justify-content: center;
+align-items: center;
+ text-align: center;
+    height: 75px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: larger;
+    color: aliceblue;
+}
+.przyciskh:hover{
+    background: rgb(53,53,53);
+}
+.przyciskh:active{
+    background: rgb(21, 21, 21);
+}
+.flakistrony{
+  padding: 30px 20px;
+    height: auto;
+    background: rgb(53,53,53);
+    background: linear-gradient(13deg, rgba(53,53,53,0.9) 0%, rgba(25,25,25,0.9) 100%);
+    box-shadow: 5px 5px 5px 5px #000000;
+    width: 80%;
+    left: 10%;
+top:10px;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px #000000;
+    display:flex;
+  justify-content: center;
+}
+.containers{
+  top:20px;
+ /* left:5%;*/
+margin:20px;
+background-color: #131313;
+border: solid 7px rgb(0, 0, 0);
+
+height: auto;
+padding: 6px;
+color: rgb(167, 167, 167);
+}
+.rougeimg{
+  float: left;
+  height: 250px;
+  margin: 5px;
+}
+.itemimg{
+  margin: 5px;
+  float: left;
+}
+.navik{
+  margin: 5px;
+  height: 60px;
+  border: rgb(0, 0, 0,0.01) solid 1px;
+}
+.nap{margin-top:17px}
+#opis{
+  text-align: center; color:rgb(143, 173, 163); margin:3px
+}

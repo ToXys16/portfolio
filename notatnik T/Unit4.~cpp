@@ -1,0 +1,73 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit4.h"
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm4 *Form4;
+//---------------------------------------------------------------------------
+__fastcall TForm4::TForm4(TComponent* Owner)
+        : TForm(Owner)
+
+
+
+
+{
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm4::Button2Click(TObject *Sender)
+{
+ Form4->Close();        
+}
+
+//---------------------------------------------------------------------------
+
+void __fastcall TForm4::FormCreate(TObject *Sender)
+{
+pole2 ->Picture->LoadFromFile("img/nic.bmp");
+  Pole1->Picture->LoadFromFile("img/nic.bmp");
+  pole3->Picture->LoadFromFile("img/nic.bmp");
+  pole4->Picture->LoadFromFile("img/nic.bmp");
+  pole5->Picture->LoadFromFile("img/nic.bmp");
+  pole6->Picture->LoadFromFile("img/nic.bmp");
+  pole7->Picture->LoadFromFile("img/nic.bmp");
+  pole8->Picture->LoadFromFile("img/nic.bmp");
+  pole9->Picture->LoadFromFile("img/nic.bmp");
+  Image1->Picture->LoadFromFile("img/osmall.bmp");
+
+
+  p1='n'; p5='n';
+  p2='n'; p6='n';
+  p3='n'; p7='n';
+  p4='n'; p8='n';
+  p9='n'; kto='o';
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm4::Pole1Click(TObject *Sender)
+{
+
+if(p1=='n')
+{
+    if(kto=='o')
+    {
+      Pole1->Picture->LoadFromFile("img/o.bmp");
+      p1='o';
+      kto='x';
+      Image1->Picture->LoadFromFile("img/xsmall.bmp");
+
+    }
+     else
+      {
+
+      }
+
+}
+
+
+}

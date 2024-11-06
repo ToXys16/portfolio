@@ -1,0 +1,18 @@
+﻿  snejk.cpp
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,12): warning C4309: "inicjowanie": obcięcie stałej wartości
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,23): warning C4309: "inicjowanie": obcięcie stałej wartości
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,34): warning C4309: "inicjowanie": obcięcie stałej wartości
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,51): warning C4838: konwersja z „int” do „char” wymaga konwersji zawężającej
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,51): warning C4309: "inicjowanie": obcięcie stałej wartości
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,56): warning C4838: konwersja z „int” do „char” wymaga konwersji zawężającej
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,56): warning C4309: "inicjowanie": obcięcie stałej wartości
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,61): warning C4838: konwersja z „int” do „char” wymaga konwersji zawężającej
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,61): warning C4309: "inicjowanie": obcięcie stałej wartości
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,66): warning C4838: konwersja z „int” do „char” wymaga konwersji zawężającej
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,66): warning C4309: "inicjowanie": obcięcie stałej wartości
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,86): warning C4838: konwersja z „int” do „char” wymaga konwersji zawężającej
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,86): warning C4309: "inicjowanie": obcięcie stałej wartości
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,91): warning C4838: konwersja z „int” do „char” wymaga konwersji zawężającej
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(23,91): warning C4309: "inicjowanie": obcięcie stałej wartości
+C:\Users\Tomek\Desktop\sznejk\snejk\snejk\snejk.cpp(144,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  snejk.vcxproj -> C:\Users\Tomek\Desktop\sznejk\snejk\Debug\snejk.exe

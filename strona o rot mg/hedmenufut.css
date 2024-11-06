@@ -1,0 +1,266 @@
+.gura{
+    background: rgb(53,53,53);
+    background: linear-gradient(13deg, rgba(53,53,53,1) 0%, rgba(25,25,25,1) 100%);
+    width: 100%;
+    height: 75px;
+}
+.obrazek{
+top:5px;
+position: absolute;
+left: 9%;
+
+}
+#logo{
+  height: 65px;
+}
+.przyciski{
+    float: right;
+    position: relative;
+    right: 9%;
+    height: 50px;
+}
+.stopa{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(53,53,53);;
+  height: 250px;
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  }
+  hr{
+      height:1px;
+      border-width:0;
+      color:rgb(0, 0, 0);
+      background-color:rgb(0, 0, 0);
+  }
+  .fa {
+      color: rgb(0, 0, 0);
+      font-weight: 900;
+      font-size: 2rem;
+      transition: all 0.2s;
+      margin: 0.4rem;
+    }
+    
+    .fa:hover {
+      color: rgb(75, 100, 224);
+      filter: drop-shadow(0 0 20px rgba(63,94,251));
+      transform: scale(1.1);
+    }
+    .fb {
+      color: rgb(0, 0, 0);
+      font-weight: 900;
+      font-size: 2rem;
+      transition: all 0.2s;
+      margin: 0.4rem;
+    }
+    
+    .fb:hover {
+      color: #4267B2;
+      filter: drop-shadow(0 5px 20px #5685e4);
+      transform: scale(1.1);
+    }
+    .fr {
+      color: rgb(0, 0, 0);
+      font-weight: 900;
+      font-size: 2rem;
+      transition: all 0.2s;
+      margin: 0.4rem;
+    }
+    
+    .fr:hover {
+      color: #FF5700;
+      filter: drop-shadow(0 5px 20px #FF5700);
+      transform: scale(1.1);
+    }
+    .fs {
+      color: rgb(0, 0, 0);
+      font-weight: 900;
+      font-size: 2rem;
+      transition: all 0.2s;
+      margin: 0.4rem;
+    }
+    
+    .fs:hover {
+      color: #2a475e;
+      filter: drop-shadow(1px 5px 20px #47779e);
+      transform: scale(1.1);
+    }
+    .fd {
+      color: rgb(0, 0, 0);
+      font-weight: 900;
+      font-size: 2rem;
+      transition: all 0.2s;
+      margin: 0.4rem;
+    }
+    
+    .fd:hover {
+      color: rgb(75, 100, 224);
+      filter: drop-shadow(0 0 0px rgba(63,94,251));
+      transform: scale(1.1);
+    }
+    .fd:before {
+      font-size: smaller;
+      content: attr(data-hover);
+      visibility: hidden;
+      opacity: 0;
+      width: 250px;
+      background-color: rgb(46, 46, 46);
+      border: 4px solid black;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      transition: opacity 0.3s ease-in-out;
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      top: -280%;
+    }
+  
+    
+    .fd:hover:before {
+      opacity: 1;
+      visibility: visible;
+    }
+  .wrapper{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    /*left: -100%;*/
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
+     background: linear-gradient(375deg, #575757, #5c5c5c); 
+   /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
+    transition: all 0.6s ease-in-out;
+  }
+  #active:checked ~ .wrapper{
+    /*left: 0;*/
+    right:0;
+  }
+  .menu-btn{
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    /*left: 20px; */
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    /*color: #fff;*/
+    /*background: linear-gradient(90deg, #f92c78, #4114a1);
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+   /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
+    transition: all 0.3s ease-in-out;
+  }
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .menu-btn:before{
+    transform: translateY(-8px);
+  }
+  .menu-btn:after{
+    transform: translateY(8px);
+  }
+  
+  
+  .close {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transition: background .6s;
+  }
+  
+  /* closing animation */
+  #active:checked + .menu-btn span {
+    transform: scaleX(0);
+  }
+  #active:checked + .menu-btn:before {
+    transform: rotate(45deg);
+    border-color: rgb(255, 89, 89);
+  }
+  #active:checked + .menu-btn:after {
+    transform: rotate(-45deg);
+    border-color: rgb(255, 103, 103);
+  }
+  .wrapper ul{
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+  }
+  .wrapper ul li{
+    height: 10%;
+    margin: 15px 0;
+  }
+  .wrapper ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px 30px;
+    color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    line-height: 50px;
+    margin: 5px 30px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .wrapper ul li a:after{
+    position: absolute;
+    content: "";
+    background: #fff;
+     background: linear-gradient(#353535, #3f3f3f, #444444);
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: scaleY(0);
+    z-index: -1;
+    transition: transform 0.3s ease;
+  }
+  .wrapper ul li a:hover:after{
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover{
+    color: #8f8f8f;
+ 
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  #active:checked ~ .wrapper ul li a{
+    opacity: 1;
+  }
+  .wrapper ul li a{
+  transition: opacity 1.2s, transform 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform: translateX(100px);
+}
+#active:checked ~ .wrapper ul li a{
+	transform: none;
+	transition-timing-function: ease, cubic-bezier(.1,1.3,.3,1); /* easeOutBackを緩めた感じ */
+   transition-delay: .6s;
+  transform: translateX(-100px);
+}

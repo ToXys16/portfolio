@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: fantasy;
+    font-family: 'Press Start 2P';font-size: 22px;
+    background-image: url(7d174b538e91b6599e91610a41f51ababcaedb30.jpeg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;    
+    padding-bottom: 300px;
+    min-height: 100vh;
+}
+
+.przyh{
+
+    text-decoration: none;
+}
+.przyciskh{
+    display: flex;
+justify-content: center;
+align-items: center;
+ text-align: center;
+    height: 75px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: larger;
+    color: aliceblue;
+}
+.przyciskh:hover{
+    background: rgb(53,53,53);
+}
+.przyciskh:active{
+    background: rgb(21, 21, 21);
+}
+.flakistrony{
+  padding: 30px 20px;
+    height: auto;
+    background: rgb(53,53,53);
+    background: linear-gradient(13deg, rgba(53,53,53,0.9) 0%, rgba(25,25,25,0.9) 100%);
+    box-shadow: 5px 5px 5px 5px #000000;
+    width: 80%;
+    left: 10%;
+top:10px;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px #000000;
+    display:flex;
+  justify-content: center;
+}
+.tier0,.tier1, .tier2, .tier3,
+.tier4, .tier5, .tier6, .tier7,
+.tier8, .tier9, .tier10, .tier11,
+.tier12, .tier13, .tier14{
+  
+  top:20px;
+ /* left:5%;*/
+margin:20px;
+ width: 85%;
+background-color: #333333;
+border: solid 7px rgb(21, 21, 21);
+
+height: auto;
+text-align: center;
+padding: 6px;
+color: aliceblue;
+}
+.tiercontainer1, .tiercontainer2, .tiercontainer3{
+margin: 10px;
+display: flex;
+justify-content: center;
+}
+.daggertier0{
+  float: left;
+  margin:5px;
+position:relative;
+border: solid black 3px;
+width: 260px;
+}
+#napt{
+margin: 8px;
+color:rgb(179, 184, 189)
+}
+#napt1{
+  margin:4px;
+}
+#blunap{
+  color: #5685e4;
+}
