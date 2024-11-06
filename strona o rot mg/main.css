@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: fantasy;
+    font-family: 'Press Start 2P';font-size: 22px;
+    background-image: url(c489ffeac4979587e60b2dd3ecc488b43e40abdb.jpeg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;    
+    padding-bottom: 400px;
+    min-height: 100vh;
+}
+.przyh{
+
+    text-decoration: none;
+}
+.przyciskh{
+    display: flex;
+justify-content: center;
+align-items: center;
+ text-align: center;
+    height: 75px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: larger;
+    color: aliceblue;
+}
+.przyciskh:hover{
+    background: rgb(53,53,53);
+}
+.przyciskh:active{
+    background: rgb(21, 21, 21);
+}
+.flakistrony{
+  padding: 30px 20px;
+    height: auto;
+    background: rgb(53,53,53,0.8);
+background: linear-gradient(13deg, rgba(53,53,53,0.9) 0%, rgba(25,25,25,0.9) 100%);
+    width: 80%;
+    left: 10%;
+top:10px;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px #000000;
+}
+  .sekcja1{
+      opacity: 100%;
+    position: relative;
+    text-align: center;
+    color:aliceblue;
+    top:10px;
+  }
+  .cnaiimg{
+    position: relative;
+    margin:5px;
+    text-decoration: none;
+    color: aliceblue;
+        width: 250px;
+      }
+.naviimg{
+  margin:10px;
+  border-radius: 2%;
+}
+.naviimg:hover{
+  width: 270px;
+  height: 270px;
+  filter: drop-shadow(0 0 3px rgb(255, 255, 255));
+  padding: 7px;
+  transition: all 0.4s;
+}
+.hnapis:hover{
+  color: rgb(125, 122, 170);
+  transition: all 0.4s;
+}
